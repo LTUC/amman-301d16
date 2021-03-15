@@ -32,8 +32,8 @@ As a result of completing Code 301, students will:
 
 ### Index of cheatsheets and resources
 
-- [Heroku Cheatsheet](/curriculum/class-08/cheatsheets/heroku.md)
-- [Postgres Shell Cheatsheet](/curriculum/class-08/cheatsheets/postgres-shell.md)
-- [SQL Cheatsheet](/curriculum/class-08/cheatsheets/sql.md)
+- [Heroku Cheatsheet](class-08/cheatsheets/heroku.md)
+- [Postgres Shell Cheatsheet](class-08/cheatsheets/postgres-shell.md)
+- [SQL Cheatsheet](class-08/cheatsheets/sql.md)
 - [City Explorer Deployed Front-End](https://codefellows.github.io/code-301-guide/curriculum/city-explorer-app/front-end/)
 
