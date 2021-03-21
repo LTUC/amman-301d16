@@ -1,0 +1,70 @@
+
+#logo {
+    float: left;
+}
+#logo img {
+    float: left;
+  }
+nav ul {
+    float: right;
+  }
+  
+  nav li {
+    float: left;
+    padding-right: 2px;
+  }
+  
+  hr {
+    clear: both;
+    height: 13px;
+  }
+  
+.date {
+    float: left;
+  }
+.print img {
+    margin-right: 3px;
+}
+.recipe li {
+    float: left;
+    width: 40%;
+    line-height: 31px;
+  }
+
+  aside {
+    padding-top: 30px;
+    padding-bottom: 60px
+  }
+  aside img {
+    float: left;
+  }
+  
+  aside h3 {
+    padding-left: 100px;
+    padding-bottom: 10px;
+  }
+  aside p {
+    padding-left: 100px;
+    width: 65%;
+    margin: 0;
+    text-indent: 0;
+  
+  }
+  aside button {
+    float: right;
+    padding: 15px 40px;
+    border: none;
+  }
+  section hr {
+    border-bottom: 1px solid #eee;
+    height: 0;
+  }
+  footer section p{
+    padding: 50px 0;
+    line-height: 1.5em;
+    text-align: center;
+  }
+  .print {
+    padding-left: 30px;
+    float: right;
+  }
