@@ -116,6 +116,11 @@ let sum = function(a, b, c, d) {
 console.log(sum(1, 2, 3, 4));
 
 
+let sumArrow =(a, b, c, d)=> {
+  `${return sum =a+ b+ c+ d}`;
+};
+
+
 let objectLit = function() {
   return {
     key1: 'value1',
