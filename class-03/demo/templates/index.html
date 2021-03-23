@@ -17,22 +17,8 @@
 
   <main>
     <section id="neighborhoods">
-      <!-- Demo Part 1: Use jQuery to build each div totally from scratch -->
-
-      <!-- Demo Part 2: Use jQuery to clone a "template" -->
-      <div class="template">
-        <h2 class="name"></h2>
-        <p class="city"></p>
-        <p class="population"></p>
-        <p class="founded"></p>
-        <p class="body"></p>
-      </div>
-
-      <!-- Demo Part 3: Refactor that with Mustache -->
-  
-      <!-- Begin/Build the demo without this template. Build it as we refactor (Demo part 3) -->
-      <template id="neighborhood-template" type="text/x-tmpl-mustache">
-        <div>
+    <template id="neighborhood-template" type="text/x-tmpl-mustache">
+        <div id="{{name}}" class="{{name}}">
           <h2>{{name}}</h2>
           <p>Part of: {{city}}</p>
           <p>Current population: {{population}}</p>
@@ -40,6 +26,7 @@
           {{{body}}}
         </div>
       </template>
+ 
 
     </section>
   </main>
@@ -50,6 +37,7 @@
 
   <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
   <script src="https://unpkg.com/mustache@latest"></script>
+  
   <script src="scripts/dataSet.js"></script>
   <script src="scripts/neighborhood.js"></script>
 </body>
