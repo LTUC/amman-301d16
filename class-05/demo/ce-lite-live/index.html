@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Explorer</title>
+    <link href="css/style.css" rel="stylesheet">
+
+    <template id="title-template" type="text/x-tmpl-mustache">
+        <span>All About {{formatted_query}}</span>
+    </template>
+
+    <template id="map-template" type="text/x-tmpl-mustache">
+        <img src="/images/map.png?lat={{latitude}}&long={{longitude}}" height="300" width="400" alt="Map of {{formatted_query}}" />
+    </template>
+
+    <template id="restaurant-template" type="text/x-tmpl-mustache">
+        <li>
+            <div>{{restaurant}}</div>
+            <div>{{cuisines}}</div>
+            <div>{{locality}}</div>
+        </li>
+    </template>
+</head>
+<body>
+    <header>
+        <h1>City Explorer</h1>
+        <p>Enter a location below to learn about the weather, restaurants, movies, and more!</p>
+    </header>
+    <main>
+        <form id="search-form">
+            <label for="search">
+                Search for a location
+            </label>
+            <input id="search" name="search" />
+            <button id="btn-explore">Explore!</button>
+        </form>
+        <section id="map"></section>
+        <h2 id="title"></h2>
+        <section id="restaurants">
+            <h3>Restaurants</h3>
+            <ul> 
+            </ul>
+        </section> 
+    </main>
+
+    <footer>
+        Dario Thornhill &copy;
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/mustache@latest"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

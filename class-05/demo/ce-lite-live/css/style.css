@@ -1,0 +1,52 @@
+body {
+    background-color: #d9d9d9;
+    font-family: Arial;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+header h1 {
+    color: #4484CE;
+    font-size: 5rem;
+    
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+form {
+    text-align: center;
+    margin: 2rem;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+#restaurants {
+    max-width: 25%;
+    margin: 0 auto;
+}
+
+#restaurants ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5rem;
+    text-indent: 5px;
+}
+
+#restaurants ul li {
+   border-bottom: dashed 1px blue;
+}
