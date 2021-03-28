@@ -1,5 +1,9 @@
 # Node, npm, and Express
 
+## What to focus on learning today
+
+-  How to build a route* on the server, which can respond to a client request with a json object.
+
 ## Weekly Feedback
 - Class Session
     - Losing Focus

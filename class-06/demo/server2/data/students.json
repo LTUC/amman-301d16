@@ -1,0 +1,16 @@
+[
+    {
+      "name": "Raneem",
+      "favColor": "Blue",
+      "friend": "Naji",
+      "favNumber": 5,
+      "pic": "https://ca.slack-edge.com/TNGRRLUMA-U01KBA17V4M-c9ebcce290fe-512"
+    },
+    {
+        "name": "Naji",
+        "favColor": "Black",
+        "friend": "Walaa",
+        "favNumber": 7,
+        "pic": "https://ca.slack-edge.com/TNGRRLUMA-U01KETYNUSF-e1ff51d40d8d-512"
+      }
+]

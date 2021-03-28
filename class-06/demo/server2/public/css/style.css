@@ -1,0 +1,10 @@
+main#students {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    border: 2px dashed green;
+}
