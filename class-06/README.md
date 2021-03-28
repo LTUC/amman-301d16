@@ -8,8 +8,10 @@
         - Do Code Review last
     - Not keeping up with Native English
         - I'll slow it down more.
+        - Use more common language terms
+        - Use lower level and more detailed context
     - Faces on camera distracting, don't want to wear Hijab all day
-        - Camera on only when speaking
+        - Camera on only when speaking [Optional]
 
 - Course Structure
     - Less Reading, More Practice.
@@ -28,20 +30,21 @@ Another component of this portion of the course involves working with a static c
 
 ## Daily Plan
 - Warm-up exercise
-- Review code challenges
-- Introduction of today's code challenge topic
 - Code review of lab assignment
+- Lab Preview
 - Node, ExpressJS, and npm
 - Environment variables
 - Code Demo
-- Lab Preview
+- Review code challenges
+- Introduction of today's code challenge topic
 
+- 1 on 1 meetings
 ## Learning Objectives
 
 As a result of completing Lecture 6 of Code 301, students will:
 - Begin to understand how the world wide web works
 - Be able to explain the role of the browser and the server as components of the web request-response cycle
 - Understand how to initialize a NodeJS project and use NPM packages
-- Understand the basics of working with ExpressJS 
+- Understand the basics of working with ExpressJS
 - Control their production and deployment environments
 - Understand how to interact with a static client code base
