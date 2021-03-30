@@ -31,3 +31,7 @@ As a result of completing Lecture 8 of Code 301, students will be able to:
   * Connect a node server to a Postgres DB
   * Save (INSERT) records to the database to create/sync a cache
   * Read (SELECT) records from the database to populate a cache
+
+
+Filter Example
+https://replit.com/@dariothornhill/filter#index.js
