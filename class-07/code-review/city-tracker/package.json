@@ -1,0 +1,28 @@
+{
+  "name": "city-tracker",
+  "version": "1.0.0",
+  "description": "lab-06",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "A Z O O Z",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "superagent": "^5.1.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdalazzezzalsalahat/city-tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abdalazzezzalsalahat/city-tracker/issues"
+  },
+  "homepage": "https://github.com/abdalazzezzalsalahat/city-tracker#readme"
+}
