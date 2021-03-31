@@ -32,3 +32,16 @@ Today we will be diving a little bit deeper into Express and higher level progra
   * Create DRY code by finding repetition, patterns
   * Modularize similar code
   
+### Shred: https://replit.com/@dariothornhill/FearfulCommonService#script.js
+
+###
+## Code Refactoring Stretgies
+  - Putting functions together based on their kind
+    - Contructors
+    - Route Handlers / Controllers
+  - Commenting our code
+  - Minimize code using more expressive syntax like arrow functions, map, filter, reduce
+  - Meaningful Variable and Function Names
+  - Use functions instead of duplicating code
+  - Declare some variables at the top of our code
+
