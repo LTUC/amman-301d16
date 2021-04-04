@@ -7,8 +7,11 @@ const app = express();
 // Use this as a talking point about environment variables
 const PORT = process.env.PORT || 3000;
 
+app.use(express.static('./public')); // request path /someFile.html look in  ./public/someFile.html
 // Set the view engine for templating
 app.set('view engine', 'ejs');
+
+app.set('views', './views') // ./views is the default but we can override it if needed.
 
 // Array of groceries for /list route
 let list = ['apples', 'celery', 'butter', 'milk', 'eggs'];
@@ -24,11 +27,15 @@ let quantities = [
 
 // Routes
 app.get('/', (request, response) => {
-  response.render('index');
+  response.render('index'); // views/index.ejs  'views/' + name + '.' + engineExt
 })
 
 app.get('/list', (request, response) => {
-  response.render('list', {arrayOfItems: list});
+  const data = {
+    foods: list, // Object keys become variables in ejs
+    name: request.query.name
+  };
+  response.render('list', data);
 })
 
 app.get('/quantities', (request, response) => {

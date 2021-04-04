@@ -10,3 +10,7 @@ label span {
 fieldset {
   width: fit-content;
 }
+
+body {
+  background-color: aqua;
+}

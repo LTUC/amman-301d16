@@ -4,10 +4,16 @@
 
 Today is the first day of our new project, a mobile-only book collection. You will be working with the same partner(s) each day, gradually working towards a full-scale application, complete with server-side templating, persistence in a SQL database, and the ability to search the Google Books API for new books to add to your collection.
 
+## Feedback
+
+- NPS 10
+- More Time / Less Assignments
+- Too much information, too many topics
+
 ## Daily Plan
 
-- Warm-up exercise
-- Review code challenges
+- Warm-up exercise - SKIP
+- Review code challenges 
 - Introduction of today's code challenge topic
 - Full-stack application skeleton scaffolding
 - HTML5 Forms
@@ -15,6 +21,17 @@ Today is the first day of our new project, a mobile-only book collection. You wi
 - Google Books API
 - Code Demo
 - Lab Preview
+
+## The Road So Far
+- How to create a form in HTML
+- How to choose either post or get for my form submission (method)
+- How to choose where the request will be sent (action)
+- REST, HTTP, Payloads
+- How to specific the root folder for loading files for responses (res.resndFile('./pathFromRoot.html'), {root: './rootFolder'})
+- How to handle post routes using express (app.post)
+- How to read data from the request
+- How to use the urlencoded and or or the json middleware to read post data on the body of the request.
+- How to use express static to serve files from the servers filesystem as a response to request for those files.
 
 ## Learning Objectives
 
