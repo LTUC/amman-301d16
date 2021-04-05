@@ -18,3 +18,10 @@ Today we will discuss componentization of our code. Although we will have more f
 
 As a result of completing lecture 12 of Code 301, students will:
 - Understand the benefits of modularizing code into smaller components through the use of EJS partials
+
+
+## Notes
+https://replit.com/@dariothornhill/nested-loops#index.js
+
+
+http://expressjs.com/en/5x/api.html#res.redirect

@@ -28,7 +28,7 @@ app.set('view engine', 'ejs');
 // API Routes
 app.get('/', getTasks);
 
-app.get('/tasks/:task_id', getOneTask);
+app.get('/tasks/:task_id/:task_type', getOneTask);
 
 app.get('/add', showForm);
 
@@ -46,11 +46,16 @@ function getTasks(request, response) {
 
   return client.query(SQL)
     .then(results => response.render('index', { results: results.rows }))
-    .catch(handleError);
+    .catch((error) => handleError(error, response));
 }
 
 function getOneTask(request, response) {
+  // ? => query
+  // POST form => body
+  // /:path/ => params
+
   let SQL = 'SELECT * FROM tasks WHERE id=$1;';
+  console.log(request.params);
   let values = [request.params.task_id];
 
   return client.query(SQL, values)
