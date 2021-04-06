@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <h1><%= name %>'s Grocery List</h1>
+    <p><a href="/">Home</a></p>
+    <ul>
+      <% foods.forEach(item => { %>
+        <li><%= item %></li>
+      <% }) %>
+
+    </ul>
+    <!-- <ul>
+      <li>Apples</li>
+      <li>Pears</li>
+      <li>Bananas</li>
+    </ul> -->
+  </body>
+</html>
