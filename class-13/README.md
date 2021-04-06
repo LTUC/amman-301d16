@@ -22,3 +22,7 @@ As a result of completing lecture 13 of Code 301, students will:
 
 - Be able to send a post request and route it as a put or delete using method-override
 - Update or delete records stored in the database
+
+## Notes
+
+- [Shred Topic](https://replit.com/@dariothornhill/class-13-shred#index.js)
