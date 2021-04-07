@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('../layout/head', {page_title: 'Book Collection'}) %>
+
+<body>
+    <main>
+        <h4>My Book Collection</h4>
+        <% books.forEach( book => { %>
+            <!-- <img src="<%= book.imgURL %>" alt="image" /> -->
+            <h3>
+                <%= book.title %>
+            </h3>
+            <h4>
+                <%= book.author %>
+            </h4>
+            <p>
+                <%= book.description %>
+            </p>
+            <% }) %>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+{
+    "name": "google-books-api",
+    "version": "1.0.0",
+    "description": "**Author**: Your Name Goes Here\r **Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "ejs": "^2.7.4",
+        "express": "^4.17.1",
+        "nodemon": "^2.0.7",
+        "pg": "^8.5.1",
+        "superagent": "^4.1.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/reema-eilouti/book_app.git"
+    },
+    "bugs": {
+        "url": "https://github.com/reema-eilouti/book_app/issues"
+    },
+    "homepage": "https://github.com/reema-eilouti/book_app#readme"
+}

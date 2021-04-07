@@ -25,3 +25,20 @@ As a result of completing lecture 14 of Code 301, students will:
 
 - Be able to perform a database migration in postgreSQL
 - Update their schema to model data
+
+## Notes
+### Database errors and possible causes
+ Cannot find relation "books"
+ The database that i am looking in for the table "books" does not contain that table.
+
+ Maybe the code is looking in the wrong database.
+ Possibly DATABASE_URL could be incorrect or empty
+ 1. DATABASE_URL may not have been loaded from .env in local - forgot to require('dotenv') and call config - mispelled '.env' ' .env'
+ 2. DATABASE_URL may have been loaded from .env in production - We pushed .env and ran require('dotenv') and call config in heroku.
+ 3. DATABASE in DATABASE_URL doesn't exist
+
+ Maybe the database does not contain a table called books
+ 1. We did not run the schema from the sql to create
+ 2. When we ran the schema from the sql to create, it had an error on the console and didn't create the table but we missed
+ 3. When we ran the schema from the sql to create, but we misspelled the table name.
+ 4. When we queried the database but we misspelled the table name.
