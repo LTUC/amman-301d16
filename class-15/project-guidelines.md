@@ -243,7 +243,7 @@ Day 3: Continue to build out features. Strive for full MVP by the end of the day
 
 Day 4: Work on any additional styling and refactoring. Work on some stretch goals. Practice your presentation.
 
-Day 5: Presentation Day!
+Day 6: Presentation Day!
 
 [Back to top](#top)
 
